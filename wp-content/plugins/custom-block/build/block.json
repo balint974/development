@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "custom-block/fancy-header",
+  "title": "Fancy Header",
+  "category": "text",
+  "icon": "editor-textcolor",
+  "description": "Adds a header with a hover effect",
+  "keywords": [
+    "header",
+    "fancy"
+  ],
+  "version": "1.0",
+  "textdomain": "custom-block",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}
