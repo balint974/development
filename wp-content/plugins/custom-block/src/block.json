@@ -6,13 +6,20 @@
   "category": "text",
   "icon": "editor-textcolor",
   "description": "Adds a header with a hover effect",
-  "keywords": [ "header" ,"fancy" ],
+  "keywords": [
+    "header",
+    "fancy"
+  ],
   "version": "1.0",
   "textdomain": "custom-block",
   "editorScript": "file:./index.js",
   "attributes": {
     "content": {
       "type": "string"
+    },
+    "underline_color": {
+      "type": "string",
+      "default": "f87171"
     }
   },
   "style": "file:./index.css"
